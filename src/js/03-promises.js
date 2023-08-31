@@ -1,4 +1,3 @@
-
 import Notiflix from 'notiflix';
 
 // one by one
