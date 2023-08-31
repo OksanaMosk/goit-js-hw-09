@@ -47,7 +47,9 @@ const options = {
 
     if (selectedDates[0] < new Date()) {
       timerValue.startBtn.disabled = true;
-      Notiflix.Notify.failure('Please choose a date in the future.');
+      Notiflix.Notify.failure('Please choose a date in the future.', {
+        timeout: 2000,
+      });
       return;
     }
 
